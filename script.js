@@ -37,6 +37,7 @@ $(document).ready(function () {
     });
   
     //retrieves items from local storage and sets them in proper places
+    $("#hour-08 .time-block").val(localStorage.getItem("08"));
     $("#hour-09 .time-block").val(localStorage.getItem("09"));
     $("#hour-10 .time-block").val(localStorage.getItem("10"));
     $("#hour-11 .time-block").val(localStorage.getItem("11"));
