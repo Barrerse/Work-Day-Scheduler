@@ -76,5 +76,7 @@ textarea{
 
 #clearFieldsBtn {
   margin-top: 1px;
+  background-color: antiquewhite;
+  color: black;
 }
 
